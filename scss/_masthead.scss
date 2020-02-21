@@ -29,4 +29,14 @@ header.masthead {
       font-size: 3.5rem;
     }
   }
+  @include media-breakpoint-up(md) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
 }

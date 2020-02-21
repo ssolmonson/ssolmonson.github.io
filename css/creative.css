@@ -593,7 +593,10 @@ pre code {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -3964,9 +3967,16 @@ input[type="button"].btn-block {
 
 .navbar > .container,
 .navbar > .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -9586,6 +9596,47 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
+}
+
+.devicon-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.devicon-list > div {
+  margin: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem .5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem 1rem;
+    text-align: center;
+  }
 }
 
 #mainNav {
