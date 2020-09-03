@@ -10864,7 +10864,9 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  height: 100vh
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
 }
 
 header.masthead h1 {
