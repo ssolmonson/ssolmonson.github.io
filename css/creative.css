@@ -10667,6 +10667,7 @@ hr.dark {
   /* color: #343a40; */
   color: #fff;
   /* text-shadow: 2px 2px 1px #fff; */
+  text-shadow: 2px 2px 1px #343a40;
   font-size: 1.75rem;
 }
 
