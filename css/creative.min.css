@@ -10846,7 +10846,8 @@ hr.dark {
   }
 
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529
+    color: #212529;
+    text-shadow: 2px 2px 1px #fff
   }
 
   #mainNav.navbar-scrolled .navbar-brand:hover {
@@ -10854,7 +10855,8 @@ hr.dark {
   }
 
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529
+    color: #212529;
+    text-shadow: 2px 2px 1px #fff
   }
 
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {

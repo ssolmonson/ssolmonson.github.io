@@ -10719,12 +10719,14 @@ hr.dark {
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
+    text-shadow: 2px 2px 1px #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #17a2b8;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
+    text-shadow: 2px 2px 1px #fff;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #17a2b8;
