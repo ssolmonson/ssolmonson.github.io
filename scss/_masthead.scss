@@ -10,7 +10,13 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   h1 {
-    font-size: 2.25rem;
+  font-family: 'Varela Round', sans-serif;
+  color: $white;
+  text-shadow: 5px 5px 3px $dark;
+  }
+  p {
+    color: $dark;
+    text-shadow: 5px 5px 3px $dark;
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
@@ -21,12 +27,12 @@ header.masthead {
       font-size: 1.15rem;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 5.5rem;
     }
   }
   @include media-breakpoint-up(xl) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
     }
   }
   @include media-breakpoint-up(md) {
