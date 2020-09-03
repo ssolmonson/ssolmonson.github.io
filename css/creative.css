@@ -10736,6 +10736,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 header.masthead h1 {
