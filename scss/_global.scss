@@ -5,6 +5,23 @@ html {
   height: 100%;
 }
 
+// About section
+.about-picture{
+  background-image: url(../img/meportrait.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 39vh;
+  margin: 2rem auto;
+  width: 37vh;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
 // Typography
 .text-white-75 {
   color: fade-out($white, .25);
